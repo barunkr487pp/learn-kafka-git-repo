@@ -1,0 +1,11 @@
+  648  sudo dpkg -i /home/baruntech/Downloads/gcmcore-linux_amd64.2.0.632.34631.deb 
+  649  git-credential-manager-core configure
+  655  git config --global credential.credentialStore gpg
+  656  git push -u origin master 
+  657  pass init gpc
+  658  sudo apt install pass
+  659  git config --global credential.credentialStore gpg
+  660  pass init gpc
+  661  git push -u origin master 
+  
+
