@@ -9,7 +9,10 @@ public class LearnKafakaApplication {
 	public static void git(String[] args) {
 		SpringApplication.run(LearnKafakaApplication.class, args);
 
+
 		System.out.println("dev!");
+
+
 
 	}
 
