@@ -6,9 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LearnKafakaApplication {
 
-	public static void main(String[] args) {
+	public static void git(String[] args) {
 		SpringApplication.run(LearnKafakaApplication.class, args);
-		System.out.println("done!billu,billu1,remote test");
+
+		System.out.println("dev!");
+
 	}
 
 }
